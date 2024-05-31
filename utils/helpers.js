@@ -311,6 +311,8 @@ function paginate(records, page = 1, limit = 10) {
     return results;
 }
 
+
+
 function randomCodeGenerate(profile, accountType) {
     let generatedCode = `${profile}-` + `${accountType}-` + Math.floor(100000 + Math.random() * 900000);
     return generatedCode;
